@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+// Hàm nhập thông tin
 int main()
 {
     string hoten ;
@@ -15,6 +15,7 @@ int main()
     cout<< "Nhap diem van: "<<endl;
     cin>> diemvan;
 
+//Hàm tính điểm trung bình
     float diemtrungbinh = (diemtoan + diemvan)/2;
 
     cout << "Diem trung binh la: " << diemtrungbinh << endl;
